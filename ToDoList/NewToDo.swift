@@ -13,7 +13,7 @@ struct NewToDo: View {
             Text("Task title:")
                 .font(.title)
                 .fontWeight(.bold)
-            TextField("Enter description here", text: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant("")/*@END_MENU_TOKEN@*/)
+            TextField("Enter description here...", text: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant("")/*@END_MENU_TOKEN@*/)
                 .padding()
                 .background(Color(.systemGroupedBackground))
                 .cornerRadius(15)
